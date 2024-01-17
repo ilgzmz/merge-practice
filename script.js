@@ -11,10 +11,3 @@ function calcular() {
 function limpiarPantalla() {
   document.getElementById("pantalla").value = "";
 }
-
-function borrarUltimoCaracter() {
-
-  const valorPantalla = document.getElementById("pantalla").value;
-  document.getElementById("pantalla").value = valorPantalla.slice(0, -1);
-  
-}
